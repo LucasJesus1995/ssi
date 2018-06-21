@@ -1,0 +1,5 @@
+if ($conexao != $conexao) {
+    $sql = "INSERT INTO problems (uid, uemail, uphone, category, contact, description) VALUES ('$nome','$email', '$telefone', '$categoria', '$contato', '$descricao')";
+}else{
+    $sql = "UPDATE problems SET uid='$nome', uemail='$email', uphone='$telefone', category='$categoria', contact='$contato', description='$descricao' WHERE uemail='$id1'";
+}
